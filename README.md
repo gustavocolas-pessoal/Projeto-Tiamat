@@ -110,7 +110,7 @@ Todos os pipelines superam o baseline, mas a comparação pareada por bootstrap 
 <li>CASSAR, D. R. <i>Vazamento de dados</i>. Campinas: Ilum Escola de Ciência, 2026. Notebook Jupyter da disciplina ATP-203 - Aprendizado de Máquina (aula 6.1).</li>
 </ul>
 
-<h4>🦁 Esfinges da Biblioteca Real</h4>
+<h4> Esfinges da Biblioteca Real</h4>
 <ul>
 <li>CUTOLO, V. M. D. M. <i>[Esfinge: regularização]</i>. Campinas: Ilum Escola de Ciência, [2026?]. Disponível em: <a href="https://github.com/drcassar/biblioteca_real/tree/main/Aprendizado%20de%20M%C3%A1quina/Regulariza%C3%A7%C3%A3o/T26%20-%20Vin%C3%ADcius%20Marianno%20De%20Marque%20Cutolo">Biblioteca Real (GitHub)</a>. Acesso em: 13 nov. 2026.</li>
 <li>SOUZA, M. L. M. de. <i>[Esfinge: XGBoost]</i>. Campinas: Ilum Escola de Ciência, [2026?]. Disponível em: <a href="https://github.com/drcassar/biblioteca_real/tree/main/Aprendizado%20de%20M%C3%A1quina/XGBoost/T26%20-%20Matheus%20Luiz%20Mendes%20de%20Souza">Biblioteca Real (GitHub)</a>. Acesso em: 13 nov. 2026.</li>
