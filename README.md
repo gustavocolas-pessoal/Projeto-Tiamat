@@ -158,3 +158,7 @@ Todos os pipelines superam o baseline, mas a comparação pareada por bootstrap 
   </tr>
 </table>
 <img src="Imagens do README/Rodapé (1).png"/>
+
+## Agradecimentos:
+
+Ao professor Prof. Dr. Daniel R. Cassar, por fornecer base teórica de Probabilidade e Estatística e Aprendizado de Máquina, como também por sanar dúvidas fundamentais na criação do projeto. Aos colegas de sala e amigos Vinícius M. M. Cutolo, Filipi Martins, Pedro Lucas M. S. de Sá, Gabriel O. Paiva e Matheus Luiz Mendes de Souza por ajudarem a avaliar o andamento do projeto (me ajudarem a entender mais claramente o que eu estava fazendo) e por sugerirem materiais extras (como vídeos didáticos no Youtube e até fornecendo os próprios materiais nesses quesitos - as Esfinges supracitadas). 
