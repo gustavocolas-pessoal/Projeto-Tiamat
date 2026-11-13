@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Área-Machine%20Learning-darkred">
 </p>
 
-Notebook desenvolvido em Python pelo aluno Gustavo Junqueira Colas como projeto final da disciplina de Aprendizado de Máquina do segundo semestre da Ilum. O trabalho busca prever o impacto científico de artigos de inteligência artificial indexados no PubMed, medido pela contagem acumulada de citações, utilizando apenas informações conhecidas antes da publicação (título, resumo, autoria, afiliações, revista, tipo de publicação, tamanho da lista de referências e data). Os artigos, publicados entre 2018 e 2024, foram sorteados por janelas mensais com uma cota igual por ano e coletados pelas APIs oficiais do PubMed (E-utilities) e da OpenAlex, e não por raspagem de páginas. Foram comparados um baseline (a mediana) e cinco pipelines otimizados pelo Optuna com validação cruzada de 5 dobras: o Rigde, o *k*-NN, a floresta aleatória, o XGBoost e um stacking aninhado. Este projeto é a entrega final ("Tiamat") da disciplina Aprendizado de Máquina, ministrada pelo Prof. Dr. Daniel R. Cassar na Ilum Escola de Ciência, realizada individualmente pelo aluno Gustavo Junqueira Colas.
+O trabalho busca prever o impacto científico de artigos de inteligência artificial indexados no PubMed, medido pela contagem acumulada de citações, utilizando apenas informações conhecidas antes da publicação (título, resumo, autoria, afiliações, revista, tipo de publicação, tamanho da lista de referências e data). Os artigos, publicados entre 2018 e 2024, foram sorteados por janelas mensais com uma cota igual por ano e coletados pelas APIs oficiais do PubMed (E-utilities) e da OpenAlex. Foram comparados um baseline (a mediana) e cinco pipelines otimizados pelo Optuna com validação cruzada de 5 dobras: o Rigde, o *k*-NN, a floresta aleatória, o XGBoost e Stacking. Este projeto é a entrega final ("Tiamat") da disciplina Aprendizado de Máquina, ministrada pelo Prof. Dr. Daniel R. Cassar na Ilum Escola de Ciência, realizada individualmente pelo aluno Gustavo Junqueira Colas.
 
 ## Como executar:
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 4. Abra o arquivo **relatorio_tiamat.ipynb** e execute todas as células em ordem (*Restart* e *Run All*)
 
-Observação: os dados coletados (pasta `dados`) e os resultados das otimizações (pasta `saidas`) já acompanham o repositório e são reaproveitados automaticamente, de modo que o notebook roda em poucos minutos e reproduz exatamente os números do relatório. Para recoletar os dados do zero, basta mudar `RECOLETAR = False` para `True`. Nesse caso, as citações serão as da nova data de coleta (elas continuam se acumulando), e os resultados mudarão. Para refazer as otimizações, basta apagar os arquivos da pasta `saidas`, o que leva bem mais tempo (só a floresta aleatória e o XGBoost levaram cerca de 16 minutos cada).
+Observação: os dados coletados (pasta `dados`) e os resultados das otimizações (pasta `saidas`) já acompanham o repositório e são reaproveitados automaticamente, de modo que o notebook roda em poucos minutos e reproduz exatamente os números do relatório. Para recoletar os dados do zero, basta mudar `RECOLETAR = False` para `True`. Nesse caso, as citações serão as da nova data de coleta (elas continuam se acumulando), e os resultados mudarão. Para refazer as otimizações, basta apagar os arquivos da pasta `saidas`, o que leva bem mais tempo (só a floresta aleatória e o XGBoost levaram cerca de 20~25 minutos cada).
 
 ## Conteúdo:
 
