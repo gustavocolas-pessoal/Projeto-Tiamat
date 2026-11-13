@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/Python-3.13.7-blue">
   <img src="https://img.shields.io/badge/scikit--learn-Pipelines-green">
   <img src="https://img.shields.io/badge/Optuna-TPE-purple">
-  <img src="https://img.shields.io/badge/XGBoost-Boosting-orange">
   <img src="https://img.shields.io/badge/Área-Machine%20Learning-darkred">
 </p>
 
