@@ -30,7 +30,6 @@ Observação: os dados coletados (pasta `dados`) e os resultados das otimizaçõ
 
 <ul>
   <li>:file_folder: <b>Imagens do README</b>: contém as imagens de cabeçalho e rodapé deste README</li>
-  <li>:file_folder: <b>cache_pubmed</b>: respostas brutas (XML) das E-utilities, guardadas para não repetir requisições</li>
   <li>:notebook: <b>relatorio_tiamat.ipynb</b>: notebook completo, com introdução, coleta, análise exploratória, pipelines, resultados, conclusões e referências</li>
   <li>:spiral_notepad: <b>requirements.txt</b>: lista das bibliotecas necessárias para rodar o projeto</li>
 </ul>
