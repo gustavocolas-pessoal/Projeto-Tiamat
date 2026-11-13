@@ -157,4 +157,4 @@ Todos os pipelines superam o baseline, mas a comparação pareada por bootstrap 
     </td>
   </tr>
 </table>
-<img src="Imagens do README/Rodape(1).png"/>
+<img src="Imagens do README/Rodape (1).png"/>
