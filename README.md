@@ -30,24 +30,7 @@ Observação: os dados coletados (pasta `dados`) e os resultados das otimizaçõ
 
 <ul>
   <li>:file_folder: <b>Imagens do README</b>: contém as imagens de cabeçalho e rodapé deste README</li>
-  <li>:file_folder: <b>dados</b>: dados coletados e divididos</li>
-    <ul>
-      <li>:page_facing_up: <b>pubmed_raw.csv</b>: metadados dos artigos sorteados no PubMed</li>
-      <li>:page_facing_up: <b>pubmed_citacoes.csv</b>: os mesmos artigos, com as citações e os campos obtidos na OpenAlex</li>
-      <li>:page_facing_up: <b>pmids_amostra.json</b>: identificadores (PMIDs) sorteados em cada janela mensal</li>
-      <li>:page_facing_up: <b>cache_openalex.json</b>: respostas brutas da OpenAlex, guardadas para não repetir requisições</li>
-      <li>:page_facing_up: <b>treino.csv</b>, <b>teste.csv</b>: conjuntos de treino (3868 artigos) e de teste (967 artigos)</li>
-    </ul>
   <li>:file_folder: <b>cache_pubmed</b>: respostas brutas (XML) das E-utilities, guardadas para não repetir requisições</li>
-  <li>:file_folder: <b>saidas</b>: resultados das otimizações e da comparação final</li>
-    <ul>
-      <li>:page_facing_up: <b>melhores_modelos.json</b>: hiperparâmetros vencedores e métricas de validação cruzada de cada modelo</li>
-      <li>:page_facing_up: <b>historicos.csv</b>: todos os trials do Optuna, de todos os modelos</li>
-      <li>:page_facing_up: <b>meta_matrizes.csv</b>: entradas do meta-modelo do stacking (previsões das bases em cada dobra)</li>
-      <li>:page_facing_up: <b>tabela_consolidada.csv</b>: métricas de validação cruzada e de teste de todos os modelos</li>
-      <li>:page_facing_up: <b>intervalos.json</b>, <b>comparacao_pareada.csv</b>: intervalos de 95% por bootstrap e comparações pareadas</li>
-    </ul>
-  <li>:file_folder: <b>figuras</b>: todas as figuras geradas pelo notebook (distribuição do alvo, análise exploratória, convergência do Optuna e comparação dos modelos)</li>
   <li>:notebook: <b>relatorio_tiamat.ipynb</b>: notebook completo, com introdução, coleta, análise exploratória, pipelines, resultados, conclusões e referências</li>
   <li>:spiral_notepad: <b>requirements.txt</b>: lista das bibliotecas necessárias para rodar o projeto</li>
 </ul>
