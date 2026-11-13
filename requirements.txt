@@ -1,0 +1,12 @@
+# Projeto Tiamat - Python 3.13.7
+numpy>=2.1
+pandas>=2.2.3
+scipy>=1.14.1
+scikit-learn>=1.5.2
+xgboost>=2.1.1
+optuna>=4.0
+matplotlib>=3.9.2
+jinja2>=3.1          # usado pelo pandas para exibir as tabelas formatadas (.style)
+requests>=2.32
+beautifulsoup4>=4.12
+ipykernel>=6.29      # para rodar o notebook no VSCode/Jupyter
